@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/BritannicBoldRegular.ttf);
+}
+
 $primary-color: #ec9203;
 $secondary-color: #575656;
 $ternarycolor-color: #ffffff;
@@ -17,7 +22,6 @@ body {
 #navbar {
   background-color: $ternarycolor-color !important;
   .nav-link {
-    color: black;
     padding: 15px 20px;
     font-size: 19px;
     font-weight: 500;
@@ -25,11 +29,11 @@ body {
       color: $primary-color !important;
     }
   }
-  .nav-link {
+  .social {
     color: black;
-    padding: 15px 20px;
-    font-size: 19px;
-    font-weight: 500;
+    &:hover {
+      color: $primary-color !important;
+    }
   }
 }
 
@@ -51,6 +55,12 @@ body {
   }
 }
 
+#carouselExampleIndicators {
+  h1, h3 {
+    font-family: myFirstFont;
+  }
+}
+
 #signup {
   background-color: $primary-color;
   p {
@@ -62,6 +72,9 @@ body {
     border-color: white;
     text-align: center;
     border-radius: 12px;
+    &::placeholder {
+      color:rgb(255, 255, 255);
+    }
   }
   .btn-custom {
     background-color: $ternarycolor-color;
@@ -72,6 +85,10 @@ body {
 }
 
 #our-service {
+  background-image: url(../images/services/back.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   h2 {
     font-size: 56px;
     color: #6e6e6e;
@@ -135,6 +152,10 @@ body {
 }
 
 #yoga1{
+  background-image: url(../images/services/yoga-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
     p {
       font-size: 22px;
       color: #6e6e6e;
@@ -192,9 +213,11 @@ body {
 }
 
 #vision1 {
-  border-color: $primary-color;
-  border-radius: 29px;
-  border-style: solid;
+  .container {
+    border-color: $primary-color;
+    border-radius: 29px;
+    border-style: solid;
+  }
   h3 {
     color: $primary-color;
     font-size: 36px;
@@ -207,7 +230,7 @@ body {
 #first {
   h1 {
     position: absolute;
-    bottom: 613px;
+    bottom: 450px;
     left: 150px;
     opacity: 70%;
     background-color: #000;
@@ -217,7 +240,7 @@ body {
   }
   h3 {
     position: absolute;
-    bottom: 448px;
+    bottom: 350px;
     /* right: 61px; */
     left: 548px;
     background-color: #000;
@@ -228,11 +251,11 @@ body {
   }
   p {
     position: absolute;
-    bottom: 229px;
-    opacity: 70%;
+    width:120%;
+    bottom: 150px;
     left: 43px;
     font-size: 35px;
-    color: black;
+    color: rgb(255, 255, 255);
     padding-left: 80px;
     padding-right: 806px;
   }
@@ -321,10 +344,10 @@ body {
 #Gastrointestinal,
 #how,
 #gynaecology {
-  -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  border-radius: 40px;
+  // -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // border-radius: 40px;
   .img-fluid {
     border-radius: 40px;
   }
@@ -369,10 +392,10 @@ body {
     color: $primary-color;
     font-size: 40px;
   }
-  -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
-  border-radius: 40px;
+  // -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  // border-radius: 40px;
   .img-fluid {
     border-radius: 40px;
   }
