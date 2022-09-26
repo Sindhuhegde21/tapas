@@ -7,14 +7,15 @@ body {
 }
 
 #footer {
+  font-size: 20px;
   .btn-custom {
     background-color: $primary-color;
-    color: #fff;
+    color:$ternarycolor-color;
     padding: 6px 24px;
   }
 }
 #navbar {
-  background-color: #fff !important;
+  background-color: $ternarycolor-color !important;
   .nav-link {
     color: black;
     padding: 15px 20px;
@@ -23,6 +24,12 @@ body {
     &:hover {
       color: $primary-color !important;
     }
+  }
+  .nav-link {
+    color: black;
+    padding: 15px 20px;
+    font-size: 19px;
+    font-weight: 500;
   }
 }
 
@@ -38,7 +45,7 @@ body {
   }
   .btn-custom {
     background-color: $primary-color;
-    color: #fff;
+    color: $ternarycolor-color;
     border-radius: 15px;
     padding: 6px 24px;
   }
@@ -46,7 +53,6 @@ body {
 
 #signup {
   background-color: $primary-color;
-
   p {
     color: white;
     font-size: 28px;
@@ -55,9 +61,10 @@ body {
     background-color: $primary-color;
     border-color: white;
     text-align: center;
+    border-radius: 12px;
   }
   .btn-custom {
-    background-color: #fff;
+    background-color: $ternarycolor-color;
     color: $primary-color;
     border-radius: 15px;
     padding: 6px 24px;
@@ -65,25 +72,25 @@ body {
 }
 
 #our-service {
-  h2{
-    font-size:56px;
-    color:#6E6E6E;
+  h2 {
+    font-size: 56px;
+    color: #6e6e6e;
   }
   h5 {
     font-size: 22px;
-    color:#6E6E6E;
-    font-weight:400;
+    color: #6e6e6e;
+    font-weight: 400;
   }
-  p{
+  p {
     font-size: 22px;
-    color:#6E6E6E;
+    color: #6e6e6e;
   }
   .btn-custom {
     background-color: $primary-color;
-    color: #fff;
+    color: $ternarycolor-color;
     border-radius: 15px;
-    padding: 2px 24px;
-    margin: 10px 76px;
+    padding: 2px 18px;
+    margin: -2px 46px;
   }
   .special-word {
     color: $primary-color;
@@ -94,46 +101,64 @@ body {
 #appointment {
   background-color: $primary-color;
   p {
-    color: #fff;
-    font-size: 24px;
+    color: $ternarycolor-color;
+    font-size: 22px;
     text-align: center;
   }
   .btn-custom {
     color: $primary-color;
-    background-color: #fff;
+    background-color: $ternarycolor-color;
     text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
   }
 }
 
 #yoga {
-  h2{
-    color:#6E6E6E;
+  h2 {
+    color: #6e6e6e;
     font-size: 42px;
   }
-    .special-word {
-      color: $primary-color;
-      font-size: 40px;
-    }
+  .special-word {
+    color: $primary-color;
+    font-size: 40px;
+  }
   h4 {
     font-size: 28px;
-    color:#6E6E6E;
-    font-weight:lighter;
+    color: #6e6e6e;
+    font-weight: lighter;
   }
-  p{
-    font-size: 22px;
-    color:#6E6E6E;
+  p {
+    font-size: 18px;
+    color: #6e6e6e;
   }
 }
 
+#yoga1{
+    p {
+      font-size: 22px;
+      color: #6e6e6e;
+    }
+  }
 
+  #about-banner{
+    p{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-107%, 61%);
+      font-size: 40px;
+      color:#000;
+    }
+  }
 #health {
   h5 {
     font-size: 48px;
-    color:#6E6E6E;
+    color: #6e6e6e;
   }
   p {
     font-size: 22px;
-    color:#444444;
+    color: #444444;
   }
   .special-word {
     color: $primary-color;
@@ -153,12 +178,12 @@ body {
     color: #6e6e6e;
   }
   p {
-    font-size: 21px;
+    font-size: 22px;
     color: #696969;
   }
 }
-#founder{
-  hr{
+#founder {
+  hr {
     color: $primary-color;
     height: 3px;
     margin-right: 1033px;
@@ -170,26 +195,15 @@ body {
   border-color: $primary-color;
   border-radius: 29px;
   border-style: solid;
-h3{
-  color:$primary-color;
-  font-size: 36px;
-  font-weight: bold;
-}
+  h3 {
+    color: $primary-color;
+    font-size: 36px;
+    font-weight: bold;
+  }
   p {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
-
-// #first {
-//   h1 {
-//     font-size: 60px;
-//     color: #fff;
-//   }
-//   h3 {
-//     font-size: 40px;
-//     color: #fff;
-//   }
-// }
 #first {
   h1 {
     position: absolute;
@@ -197,7 +211,7 @@ h3{
     left: 150px;
     opacity: 70%;
     background-color: #000;
-    color: #fff;
+    color: $ternarycolor-color;
     padding-left: 20px;
     padding-right: 32px;
   }
@@ -208,7 +222,7 @@ h3{
     left: 548px;
     background-color: #000;
     opacity: 70%;
-    color: #fff;
+    color: $ternarycolor-color;
     padding-left: 19px;
     padding-right: 30px;
   }
@@ -223,7 +237,7 @@ h3{
     padding-right: 806px;
   }
   .btn-custom {
-    color: #fff;
+    color: $ternarycolor-color;
     background-color: $primary-color;
     position: absolute;
   }
@@ -242,7 +256,7 @@ h3{
   hr {
     color: $primary-color;
     height: 3px;
-    margin: 18px 533px;
+    width:64%;
     opacity: 100%;
   }
   .special-word {
@@ -257,15 +271,34 @@ h3{
 }
 #acupuncture {
   h3 {
-    font-size: 40px;
+    font-size: 50px;
     color: #6e6e6e;
-    font-weight: 500;
+    font-weight: 600;
   }
   hr {
     color: $primary-color;
     height: 3px;
     margin: 18px 533px;
     opacity: 100%;
+  }
+  p {
+    font-size: 22px;
+    color: #444444;
+  }
+}
+#gynaecology {
+  h3 {
+    color: #000000;
+  }
+  p {
+    color: #444444;
+    font-size: 22px;
+  }
+}
+#how {
+  p {
+    color: #444444;
+    font-size: 22px;
   }
 }
 
@@ -283,58 +316,120 @@ h3{
   }
 }
 
-#Neurological,#Respiratory, #Gastrointestinal, #how, #gynaecology  {
-  -webkit-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
-  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
+#Neurological,
+#Respiratory,
+#Gastrointestinal,
+#how,
+#gynaecology {
+  -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
   border-radius: 40px;
   .img-fluid {
     border-radius: 40px;
+  }
+  p{
+    font-size:22px;
+    color:#444444;
+  }
+}
+#human-body{
+  .special-word {
+    color: $primary-color;
+    font-size: 40px;
+  }
+}
+#human-body1{
+  h2 {
+    font-size: 35px;
+    color: #000;
+  }
+  p{
+    font-size:22px;
+    color:#6e6e6e;
+  }
+}
+#human-body2{
+  h2 {
+    font-size: 35px;
+    color: #6e6e6e;
+  }
+  p{
+    font-size:22px;
+    color:#444444;
   }
 }
 
 #stress {
-  h2{
+  h2 {
     font-size: 35px;
-    color:#6E6E6E;
+    color: #6e6e6e;
   }
-    .special-word {
-      color: $primary-color;
-      font-size: 40px;
-    }
-  -webkit-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
-  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.13);
+  .special-word {
+    color: $primary-color;
+    font-size: 40px;
+  }
+  -webkit-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: -1px 7px 6px 0px rgba(0, 0, 0, 0.66);
   border-radius: 40px;
   .img-fluid {
     border-radius: 40px;
   }
+  p{
+    font-size:22px;
+    color:#444444;
+  }
+}
+#improve-memory, #Cosmetic{
+  p{
+    font-size:22px;
+    color:#444444;
+  }
 }
 
-
-// .fa-brands fa-facebook{
-//   height: 25px;
-//   width: 25px;
-//   background-color: #bbb;
-//   border-radius: 50%;
-//   display: inline-block;
-// }
-
-#really-need{
-  h2{
-    font-size:50px;
-    color:$primary-color;
-    
-  }
+.fa-brands {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+#need{
+  background-image: url;
   h3{
-    font-size: 35px;
-    color:#6E6E6E;
+    color:$ternarycolor-color;
+    background-color:$primary-color;
+    text-align:center;
   }
   p{
-    font-size:25px;
-    color:#6E6E6E;
+    // text-align:justify;
+    background-color:#E5DFDF;
+    font-size:18px;
+    padding:10px 10px;
   }
 }
 
+#really-need {
+  h2 {
+    font-size: 50px;
+    color: $primary-color;
+  }
+  h3 {
+    font-size: 35px;
+    color: #6e6e6e;
+  }
+  p {
+    font-size: 22px;
+    color: #6e6e6e;
+  }
+}
 
-
+#list{
+  p{
+    font-size: 22px;
+    color:#444444;
+  }
+}
