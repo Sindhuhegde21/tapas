@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="/tapas/">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -28,13 +28,23 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/"></a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/tapas/about-us.html">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/tapas/services.html">Services</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/tapas/acupuncture.html">Acupuncture</a></li>
+              <li><a class="dropdown-item" href="/tapas/functional-nutrition.html">Functional Nutrition</a></li>
+              <li><a class="dropdown-item" href="/tapas/yoga.html">Yoga</a></li>
+              <li><a class="dropdown-item" href="/tapas/cosmetic.html">Cosmetic Acupuncture</a></li>
+              <li><a class="dropdown-item" href="/tapas/guasha.html">Guasha</a></li>
+              <li><a class="dropdown-item" href="/tapas/moxibustion.html">Moxibustion</a></li>
+              <li><a class="dropdown-item" href="/tapas/pranayama.html">Pranayama</a></li>
+              <li><a class="dropdown-item" href="/tapas/cupping.html">Cupping</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/tapas/treatment.html">Treatment</a>
@@ -52,18 +62,24 @@
             <a class="nav-link" href="/tapas/contact-us.html">Contact Us</a>
           </li>
         </ul>
-        <div class="d-flex">
-          <a class="m-1 social" href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a class="m-1 social" href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a class="m-1 social" href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a class="m-1 social" href="#"><i class="fa-brands fa-youtube"></i></a>
-        </div>
+        <!-- <div class="d-flex">
+          <a class="mx-1 social" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="mx-1 social" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="mx-1 social" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a class="mx-1 social" href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div> -->
+        <div class="">
+          <a href="#"> <i class="fa-brands fa-facebook p-1 rounded"> </i></a>
+          <a href="#"><i class="fa-brands fa-twitter p-1 rounded"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram p-1 rounded"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube p-1 rounded"></i></a>
+      </div>
       </div>
     </div>
   </nav>
 
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -71,27 +87,74 @@
         aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active text-center position-relative">
         <img src="images/Holistic-health.png" class="d-block w-100" alt="...">
         <div id="first">
           <div class="contents">
-            <h1 class="py-3 text-uppercase">Acupuncture heals</h1>
-            <h3 class="py-3 text-uppercase">Since 100 B.C.</h3>
-            <p>Whether it is your first step towards holistic health or your last resort, Acupuncture gives you the
-              power to make a positive change .</p>
-            <a href="#" class="btn btn-custom text-uppercase">Submit</a>
+            <h1 class="py-3 text-uppercase fw-bold">Acupuncture <span class='special-word1'>heals</span></h1>
+            <h3 class="py-3 text-uppercase fw-bold">Since 100 B.C.</h3>
+            <p class="lh-1 mb-3">Whether it is your first step towards holistic health or your last resort, Acupuncture
+              gives you the
+              power to make a positive change .<br />Acupuncture have helped thousands of people with health conditions
+              having life changing results because it triggers the body’s healing mechanism.
+            </p>
+              <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase m-5 fs-4">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center position-relative">
+        <img src="images/stress-relief1.jpg" class="d-block w-100" alt="...">
+        <div id="first1">
+          <div class="contents">
+            <h1 class="py-3 text-uppercase fw-bold">Conquer Stress</h1>
+            <p class="lh-1 mb-3">Life is too short to feel stressed, in pain, or fatigued. Experience the benefits of
+              Auriculotherapy.Every part of the external ear connects through the microsystem remote reflexes to every
+              part of the body, a wide variety of health problems are relieved by auriculotherapy.Know more….</p>
+            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase m-5 fs-4">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center position-relative">
+        <img src="images/Holistic-health.png" class="d-block w-100" alt="...">
+        <div id="first">
+          <div class="contents">
+            <h1 class="py-3 text-uppercase fw-bold">Skin Care</h1>
+            <h3 class="py-3 text-uppercase fw-bold">Cosmetic Acupuncture</h3>
+            <p>100% natural and safe, very effective.<br /> A rage among the Hollywood Elite, and its understandable due
+              to its amazing healing effects</p>
+            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase m-5 fs-4">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center position-relative">
+        <img src="images/improve.jpg" class="d-block w-100" alt="...">
+        <div id="first4">
+          <div class="contents">
+            <h1 class="py-3 text-uppercase fw-bold">Improves Fertility</h1>
+            <p class="lh-1 mb-3">Acupuncture is widely used in a range of gynaecological and obstetric disorders.
+              Acupuncture is useful to balance hormones and treat PCOS, improve sperm / egg quality, lead to improved
+              pregnancy rates also as a supportive complement medicine in IUI/IVF treatment .</p>
+            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase m-5 fs-4">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center position-relative">
+        <img src="images/pain-relief1.jpg" class="d-block w-100" alt="...">
+        <div id="first5">
+          <div class="contents">
+            <h1 class="py-3 text-uppercase fw-bold">Pain relief</h1>
+            <p class="lh-1 mb-3">You are capable of so much more,if you stop living with pain.<br/>Acute or Chronic all kinds of body pain relief with acupuncture and other integrative modalities. </p>
+            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase m-5 fs-4">Book Now</a>
           </div>
         </div>
       </div>
 
-      <!-- <div class="carousel-item">
-        <img src="images/holistic-health.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="images/holistic-health.jpeg" class="d-block w-100" alt="...">
-      </div> -->
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -104,17 +167,51 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div> -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="/tapas/contact-us.html"><img src="images/home-banner/img-1.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/tapas/contact-us.html"><img src="images/home-banner/img-2.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/tapas/contact-us.html"><img src="images/home-banner/img-3.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/tapas/contact-us.html"><img src="images/home-banner/img-4.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/tapas/contact-us.html"><img src="images/home-banner/img-5.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <div id="heading" class="py-3 py-md-3">
     <div class="container">
-      <div class="row justify-content-end">
+      <div class="row justify-content-start">
         <div class="col-md-8">
-          <div class="">
-            <h5><span class='special-word'>Experience</span>&nbsp;<span class='special-word1'>TAPAS</span> Holistic
-              Healing Systems</h5>
+          <div class="py-4">
+            <h3><span class='special-word'>Experience</span>&nbsp;<span class='special-word1'>TAPAS</span> Holistic Healing Systems</h3>
             <p>“Nothing stands between YOU and your best functioning SELF.”</p>
-            <hr>
+            <div class="line"></div>
           </div>
         </div>
       </div>
@@ -129,9 +226,9 @@
             <img src="images/image-1.png" alt="" class="img-fluid">
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-6 align-self-center">
           <div class="">
-            <p>We work on the all the aspect of health at physio-psyco-energy(Qi)meridians level so that the
+            <p>We work on the all the aspect of health at physio-psych-energy(Qi)meridians level so that the
               transformation is whole.We focus on your wellness inside-out through various therapies and ancient
               sciences,
               integratively. </p>
@@ -139,7 +236,8 @@
               focus is on the root cause of the ailment and not just the symptoms. As a result, you’ll experience a
               significant transformation on all related aspects of body, mind and energy systems.</p>
             <div class="text-center">
-              <a href="#" class="btn btn-custom text-uppercase mt-4">know more</a>
+              <a href="/tapas/about-us.html" class="btn btn-custom text-uppercase mt-4" data-bs-toggle="modal-dialog"
+                data-bs-target="myModal">know more</a>
             </div>
           </div>
         </div>
@@ -147,16 +245,16 @@
     </div>
   </div>
 
-  <div id="signup" class="py-3 py-md-3 text-center">
+  <div id="signup" class="py-1 py-md-0 text-center">
     <div class="container">
-      <div class="row">
+      <div class="row g-3">
         <div class="col-md-6">
-          <p>Sigh up for our newsletters/blogs & stay up to date with the latest…</p>
+          <p>Sign up for our newsletters/blogs & stay up to date with the latest…</p>
         </div>
         <div class="col-md-2 align-self-center">
           <input type="text" class="form-control" placeholder="full name*">
         </div>
-        <div class="col-md-2 align-self-center  ">
+        <div class="col-md-2 align-self-center">
           <input type="email" class="form-control" placeholder="Email*">
         </div>
         <div class="col-md-2  align-self-center">
@@ -175,73 +273,115 @@
           <div class="">
             <h2 class="text-center">Our <span class='special-word'>Services</span></h2>
             <h5 class="text-center">Are You Ready to meet a healthier you.....?</h5>
+            <div class="line"></div>
             <p class="text-center pt-3">We customize an “ Integrative health plan” for you , utilizing all the required
               holistic therapies mentioned
               below as per three dimensions -body, mind, energy(Qi) constitution. Helping you reach your wellness goals.
             </p>
           </div>
         </div>
-        <div class="container py-2 py-md-2">
-          <div class="row g-3">
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Acupuncture.png" alt="" class="img-fluid">
-                <h4 class="">Acupuncture</h4>
-                <a href="/services.html" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="test">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="position-relative customhover">
+            <div class="">
+              <img src="images/index/acupuncture.png" alt="" class="img-fluid image w-100">
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Functional-Nutrition.png" alt="" class="img-fluid">
-                <h4 class="">Functional Nutrition</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom">
+              <h4>Acupuncture</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Yoga.png" alt="" class="img-fluid">
-                <h4 class="">Yoga</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover1">
+            <div class="">
+              <img src="images/index/functional-Nutrition.png" alt="" class="img-fluid image1 w-100">
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Cosmetic-cupuncture.png" alt="" class="img-fluid">
-                <h4 class="">Cosmetic Acupuncture</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom1">
+              <h4>Functional Nutrition</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Guasha.png" alt="" class="img-fluid">
-                <h4 class="">Guasha</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover2">
+            <div class="">
+              <img src="images/index/yoga.png" alt="" class="img-fluid image2 w-100">
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Moxibustion.png" alt="" class="img-fluid">
-                <h4 class="">Moxibustion</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom2">
+              <h4>Yoga</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Pranayama.png" alt="" class="img-fluid">
-                <h4 class="">Pranayama</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover3">
+            <div class="">
+              <img src="images/index/cosmetic-cupuncture.png" alt="" class="img-fluid image3 w-100">
             </div>
-            <div class="col-md-3 align-self-center">
-              <div class="text-center">
-                <img src="images/services/Cupping.png" alt="" class="img-fluid">
-                <h4 class="">Cupping</h4>
-                <a href="#" class="btn btn-custom text-uppercase">know more</a>
-              </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom3">
+              <h4>Cosmetic Cupuncture</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover4">
+            <div class="">
+              <img src="images/index/guasha.png" alt="" class="img-fluid image4 w-100">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom4">
+              <h4>Guasha</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover4">
+            <div class="">
+              <img src="images/index/Moxibustion.png" alt="" class="img-fluid image4 w-100">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom4">
+              <h4>Moxibustion</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover5">
+            <div class="">
+              <img src="images/index/pranayama.png" alt="" class="img-fluid image5 w-100">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom5">
+              <h4>Pranayama</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="position-relative customhover6">
+            <div class="">
+              <img src="images/index/cupping.png" alt="" class="img-fluid image6 w-100">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle custom6">
+              <h4>Cupping</h4>
+              <a href="/tapas/acupuncture.html" class="btn btn-custom text-uppercase"><b>know more</b></a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div id="experience" class="py-3 py-md-5">
+    <div class="">
+      <img src="images/experience.png" alt="" class="img-fluid">
     </div>
   </div>
 
@@ -264,7 +404,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="">
-            <h3>Improving Immunity</h3>
+            <h3 class="py-1 fs-4">Improving Immunity</h3>
             <p>Body’s resistant power of body is increased by acupuncture by increase of leucocytosis ,antibodies, gamma
               globulins etc. Thats why acupuncture is very effective in treating infections also in the cases of
               resistance or hypersensitivity to antibiotics or where antibiotics have failed or given serios side
@@ -272,7 +412,7 @@
               .Also prolonged use of antibiotics can be reduced with concurrent use of Acupuncture.</p>
           </div>
           <div class="">
-            <h3>Analgesic(Pain relief)</h3>
+            <h3 class="py-1 fs-4">Analgesic(Pain relief)</h3>
             <p class="">Selected points give pain relief from tooth ache,back pain, headache, arthritis pain,injury,
               nerve pain
               and
@@ -281,7 +421,7 @@
               and non opiate neuro-transmitters ,hormonal mechanisms are involved in pain relief with Acupuncture.</p>
           </div>
           <div class="">
-            <h3>Psychological Effect</h3>
+            <h3 class="py-1 fs-4">Psychological Effect</h3>
             <p>Calming and tranquilizing effect of acupuncture .Measurable effects have been reported in the metabolic
               activity of brain tissue.eg-there is an increase of Dopamine content of the brain after acupuncture that’s
               why it is very effective in treating in certain mental disorders like Parkinson’s where depletion of
@@ -296,13 +436,13 @@
 
         <div class="col-md-4">
           <div class="">
-            <h3>Sedation</h3>
+            <h3 class="py-1 fs-4">Sedation</h3>
             <p>Needling of certain points results in sedation. its shown that during acupuncture there is a decrease in
               delta and theta wave activity on the electro-encephalogram. thats why its effective in treating
               insomnia,anxiety ,epilepsy, addictions, behavioural mental disorders.</p>
           </div>
           <div class="">
-            <h3>Motor recovery(Brain)</h3>
+            <h3 class="py-1 fs-4">Motor recovery(Brain)</h3>
             <p>Acupuncture hastens the motor recovery in cases who have become paralysed .late cases of motor failure
               also
               responds well to acupuncture despite failure of other forms of therapies.to know more about this
@@ -312,7 +452,7 @@
             </p>
           </div>
           <div class="">
-            <h3>Homeostatic Effect</h3>
+            <h3 class="py-1 fs-4">Homeostatic Effect</h3>
             <p>Restoring the original state of equilibrium by affecting the parasympathetic and sympathetic nervous
               system
               and endocrine system.these systems are disturbed in many ailments so use of acupuncture helps bringing the
@@ -325,17 +465,17 @@
   </div>
 
 
-  <div id="appointment" class="py-3 py-md-4">
+  <div id="appointment" class="py-1 py-md-1">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
           <div class="">
-            <p class="py-2">your journey towards transforming health starts here. connect with TAPAS team of experts to
-              get a highly customized “integrative health plan”</p>
+            <p class="">Your journey towards transforming health starts here. connect with TAPAS team of experts to
+              get a highly customized “Integrative Health Plan”</p>
           </div>
         </div>
         <div class="col-md-4 align-self-center">
-          <a href="#" class="btn btn-custom py-2">SCHEDULE AN APPOINTMENT</a>
+          <a href="/tapas/contact-us.html" class="btn btn-custom">SCHEDULE AN APPOINTMENT</a>
         </div>
       </div>
     </div>
@@ -348,6 +488,7 @@
           <div class="">
             <h2 class="text-center">Therapeutic <span class='special-word'>Yoga </span></h2>
             <h4 class="text-center">Yoga is the journey of the self, to the self, through the self.</h4>
+            <div class="line"></div>
           </div>
         </div>
       </div>
@@ -361,19 +502,18 @@
             <img src="images/services/yoga-therapy.png" alt="" class="img-fluid">
           </div>
           <div class="">
-            <p class="text-center">We apply different practices of yoga to help alleviate health conditions and promote
+            <p class="text-center mt-5">We apply different practices of yoga to help alleviate health conditions and
+              promote
               holistic
               wellbeing.These conditions can range from physical ailments to mental emotional stress.The yogic
               therapeutic
               program includes practices of different Asana,Pranayama techniques,Kriya ,Dhyana(Meditation), Yoga Nidra
-              (A
-              practice of deep relaxation) to bring back balance in the system.</p>
-            <p class="text-center"> Our therapeutic yoga specialist can pull
-              from all forms of yoga and a broad spectrum of yoga pose to design a program that fits best for your
-              needs.
-              Our trust is through these teachings you will find more ease in your body, tranquil mind, and greater
-              levels
-              of energy and well-being.</p>
+              (A practice of deep relaxation) to bring back balance in the system.</p>
+            <p class="text-center"> Our therapeutic yoga specialist can pull from all forms of yoga and a broad spectrum
+              of yoga pose to design a program that fits best for your
+              needs.Our trust is through these teachings you will find more ease in your body, tranquil mind, and
+              greater
+              levels of energy and well-being.</p>
             <p class="text-center"> We have different therapeutic yoga programs to help to ease conditions like
               arthritis, back pain, neck pain,muscular issues,insomnia,sciatica,all types of headaches,gastrointestinal
               issues, weight gain ,hormonal imbalance-thyroid conditions, mental issues like depression, anxiety also
@@ -386,11 +526,11 @@
     </div>
   </div>
 
-  <div id="signup" class="py-3 py-md-3 text-center">
+  <div id="signup" class="py-1 py-md-1">
     <div class="container">
-      <div class="row">
+      <div class="row g-3">
         <div class="col-md-6">
-          <p>Sigh up for our newsletters/blogs & stay up to date with the latest…</p>
+          <p>Sign up for our newsletters/blogs & stay up to date with the latest…</p>
         </div>
         <div class="col-md-2 align-self-center">
           <input type="text" class="form-control" placeholder="full name" class="">
@@ -408,37 +548,42 @@
   </div>
 
 
-  <div id="human-body" class="py-3 py-md-3">
+  <div id="human-body" class="py-3 py-md-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-center">Effects of stress on &nbsp;<span class='special-word'>HUMAN BODY</span></h2>
+          <h2 class="text-center">EFFECTS OF STRESS ON &nbsp;<span class='special-word'>HUMAN BODY</span></h2>
+          <div class="line"></div>
         </div>
       </div>
     </div>
-    <div id="human-body1" class="py-3 py-md-3">
+    <div id="human-body1" class="py-2 py-md-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 my-4">
+          <div class="col-md-4 text-align-right">
             <div class="">
-              <h4>Brain</h4>
-              <p>Prolonged stress is the reason for depression, anxiety ,panic attacks, memory loss, mood swings
+              <h3 class="py-1 fs-4">Brain</h3>
+              <p class="border p-2">Prolonged stress is the reason for depression, anxiety ,panic attacks, memory loss,
+                mood swings
                 ,insomnia ,mindfog.</p>
             </div>
             <div class="">
-              <h4>Respiratory System</h4>
-              <p>hormonal imbalance, menstrual disorders, fertility issues in women - low egg quality ,endometriosis and
+              <h3 class="py-1 fs-4">Respiratory System</h3>
+              <p class="border p-2">Hormonal imbalance, menstrual disorders, fertility issues in women - low egg quality
+                ,endometriosis and
                 also in men like chronic stress can impair testosterone and sperm production and can cause impotence.
               </p>
             </div>
             <div class="">
-              <h4>Musculoskeletal system</h4>
-              <p>increased inflammation in musculoskeletal system, aches, tension ,muscle tightness ,more prone to
+              <h3 class="py-1 fs-4">Musculoskeletal system</h3>
+              <p class="border p-2">Increased inflammation in musculoskeletal system, aches, tension ,muscle tightness
+                ,more prone to
                 injuries, muscular twitches and tics.</p>
             </div>
             <div class="">
-              <h4>Immune System</h4>
-              <p>Due to chronic stress low immunity ,increased risk of falling sick frequently ,longer recovery time.
+              <h3 class="py-1 fs-4">Immune System</h3>
+              <p class="border p-2">Due to chronic stress low immunity ,increased risk of falling sick frequently
+                ,longer recovery time.
               </p>
             </div>
           </div>
@@ -448,25 +593,28 @@
 
           <div class="col-md-4 my-4">
             <div class="">
-              <h4>Skin & Hair</h4>
-              <p>Stress is also the reason for skin issues like Eczema, psoriasis, delayed tissue repair, Acne and dull
+              <h3 class="py-1 fs-4">Skin & Hair</h3>
+              <p class="border p-2">Stress is also the reason for skin issues like Eczema, psoriasis, delayed tissue
+                repair, Acne and dull
                 skin etc. Hair fall and baldness is very common in cases of severe stress.</p>
             </div>
 
             <div class="">
-              <h4>Cardiovascular system</h4>
-              <p>imbalance in blood pressure, increased rate of heart attack ,stroke and other heart related issues.</p>
+              <h3 class="py-1 fs-4">Cardiovascular system</h3>
+              <p class="border p-2">Imbalance in blood pressure, increased rate of heart attack ,stroke and other heart
+                related issues.</p>
             </div>
 
             <div class="">
-              <h4>Gastrointestinal system</h4>
-              <p>diseases of digestive tract, gastritis ,stomach and duodenal ulsers, IBS ,poorabsorption of nutrition
+              <h3 class="py-1 fs-4">Gastrointestinal system</h3>
+              <p class="border p-2">Diseases of digestive tract, gastritis ,stomach and duodenal ulsers, IBS
+                ,poorabsorption of nutrition
                 etc.</p>
             </div>
 
             <div class="">
-              <h4>Reproductive System</h4>
-              <p>high level of stress adversely affects patients of asthma ,hyperventilation etc</p>
+              <h3 class="py-1 fs-4">Reproductive System</h3>
+              <p class="border p-2">High level of stress adversely affects patients of asthma ,hyperventilation etc</p>
             </div>
           </div>
         </div>
@@ -493,65 +641,122 @@
     </div>
   </div>
 
-  <div id="appointment" class="py-3 py-md-4">
+  <div id="appointment" class="py-1 py-md-1">
     <div class="container">
       <div class="row">
         <div class="col-md-8 align-self-center">
-          <p class="">Life is too short to feel stressed, in pain or fatigue, regain your vibrent health.</p>
+          <p class="">Life is too short to feel stressed, in pain or fatigued, regain your vibrant health.</p>
         </div>
         <div class="col-md-4 align-self-center">
-          <a href="#" class="btn btn-custom">SCHEDULE AN APPOINTMENT</a>
+          <a href="/tapas/contact-us.html" class="btn btn-custom">SCHEDULE AN APPOINTMENT</a>
         </div>
       </div>
     </div>
   </div>
 
+  <div id="images" class="py-3 py-md-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+            <img src="images/img-22.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-center">
+            <img src="images/img11.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="images1" class="py-3 py-md-3 position-relative">
+    <img src="images/ocean.png" alt="" class="img-fluid custom-img">
+    <h2 class="position-absolute top-0 start-50 translate-middle-x mt-5">Testimonials</h2>
+    <div class="line"></div>
+    <div class="position-absolute start-50 translate-middle-x w-75 custom">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="mb-4">
+            <img src="images/img-4.png" alt="" class="img-fluid">
+          </div>
+          <div class="">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/bSpOU-5aq-8" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-4">
+            <img src="images/img-4.png" alt="" class="img-fluid">
+          </div>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/bSpOU-5aq-8" title="YouTube video" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="/tapas/testimonials.html" class="btn btn-custom fs-3">Know More</a>
+      </div>
+    </div>
+  </div>
 
-  <div id="footer" class="">
+  <div id="footer" class="mt-3">
     <div class="wrap pt-3 pt-md-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <a href="#">
-              <img src="images/logo.png" alt="Logo" class="img-fluid">
+              <img src="images/logo.png" alt="Logo" class="img-fluid p-2 rounded">
             </a>
-            <ul class="list-unstyled">
-              <li class="py-1"><i class="fa-sharp fa-solid fa-location-dot"></i> <a href="#"
-                  class="text-decoration-none text-dark">Address</a></li>
-              <li class="py-1"><span class="custom"><i class="fa-brands fa-whatsapp"></i></span><a
-                  href="tel:09606267947" class="text-decoration-none text-dark">+91 9606267947</a></li>
-              <li class="py-1"><i class="fa-solid fa-envelope me-2"></i> <a href="mailto:info@xxxx.com"
-                  class="text-decoration-none text-dark">info@.in</a></li>
+            <ul class="list-unstyled pt-3">
+              <li class="py-1"><i class="fa-sharp fa-solid fa-location-dot text-danger"></i> <a href="#"
+                  class="text-decoration-none text-white">Address</a></li>
+              <li class="py-1"><span class="custom"><i class="fa-brands fa-whatsapp text-success"></i></span><a
+                  href="tel:09606267947" class="text-decoration-none text-white"> +91 xxxxxxxxxx</a>
+              </li>
+              <li class="py-1"><i class="fa-solid fa-envelope me-2 text-primary"></i> <a href="mailto:info@xxxx.com"
+                  class="text-decoration-none text-white">info@.in</a></li>
 
             </ul>
           </div>
           <div class="col-md-4">
-            <ul class="list-unstyled mt-5 pt-4">
-              <li><a href="/about-us.html" class="custom-link text-decoration-none text-dark">About Us</a></li>
-              <li><a href="/services.html" class="custom-link text-decoration-none text-dark">Services</a>
+            <ul class="list-unstyled mt-2 pt-2">
+              <li><a href="/tapas/about-us.html" class="custom-link text-decoration-none text-white">About Us</a>
               </li>
-              <li><a href="/gallery.html" class="custom-link text-decoration-none text-dark">Gallery</a></li>
-              <li><a href="/testimonials.html" class="custom-link text-decoration-none text-dark">Testimonials</a>
+              <li><a href="/tapas/acupuncture.html" class="custom-link text-decoration-none text-white">Services</a>
               </li>
-              <li><a href="/Newslatters/Articles.html"
-                  class="custom-link text-decoration-none text-dark">Newslatters/Articles</a></li>
+              <li><a href="/tapas/treatment.html" class="custom-link text-decoration-none text-white">Treatment</a>
+              </li>
+              <li><a href="/tapas/gallery.html" class="custom-link text-decoration-none text-white">Gallery</a>
+              </li>
+              <li><a href="/tapas/testimonials.html" class="custom-link text-decoration-none text-white">Testimonials</a>
+              </li>
+              <li><a href="/tapas/courses.html" class="custom-link text-decoration-none text-white">Courses</a>
+              </li>
+              <li><a href="/tapas/Newslatters/Articles.html"
+                  class="custom-link text-decoration-none text-white">Newslatters/Articles</a></li>
             </ul>
-            <div class="d-flex pb-3">
-              <div class="">
-                <input type="email" placeholder="Email" class="form-control" />
-              </div>
-              <div class="">
-                <a href="/contact-us.html" class="btn btn-custom text-uppercase">Submit</a>
-              </div>
-            </div>
+            <!-- <div class="d-flex pb-3">
+                        <div class="">
+                            <input type="email" placeholder="Email" class="form-control" />
+                        </div>
+                        <div class="">
+                            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase">Submit</a>
+                        </div>
+                    </div> -->
           </div>
           <div class="col-md-4">
-            <h3 class="mt-5 pt-4">Follow us on:</h3>
+            <h3 class="mt-2 py-2 fs-4"><b>Follow us on:</b></h3>
             <ul class="list-unstyled">
-              <li><a href="#" class="custom-link text-decoration-none text-dark">Facebook</a></li>
-              <li><a href="#" class="custom-link text-decoration-none text-dark">Twitter</a></li>
-              <li><a href="#" class="custom-link text-decoration-none text-dark">Instagram</a></li>
-              <li><a href="#" class="custom-link text-decoration-none text-dark">Youtube</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-facebook p-1"></i>
+                  Facebook</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-twitter p-1"></i>
+                  Twitter</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i
+                    class="fa-brands fa-instagram text-white p-1"></i> Instagram</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-youtube p-1"></i>
+                  Youtube</a></li>
             </ul>
           </div>
         </div>
@@ -561,9 +766,16 @@
     <div id="custom">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <p class="text-center text-black mb-0 p-2">©Copyright Tapas 2022 All Right Reserved. Design & Devloped by <a
-                href="#" target="_blank" class="text-decoration-none text-dark">LDCB</a></p>
+          <div class="col-md-9">
+            <p class=" mb-0 p-2 fs-5">Copyright © Tapas holistic health systemsTapas 2022
+              All Right Reserved. Design &
+              Devloped by <a href="#" target="_blank" class="text-decoration-none text-white">LDCB</a></p>
+          </div>
+          <div class="col-md-3 align-self-center">
+            <div class="">
+              <a href="/tapas/terms.html" class="text-white text-decoration-none fs-5 border border-1 p-1">TERMS &
+                CONDITIONS</a>
+            </div>
           </div>
         </div>
       </div>
@@ -582,6 +794,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

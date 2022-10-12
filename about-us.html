@@ -2,294 +2,322 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <title>Tapas</title>
+  <title>Tapas</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="/">
-            <img src="images/logo.png" alt="Logo" class="img-fluid">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/about-us.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/treatment.html">Treatment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/testimonials.html">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tapas/contact-us.html">Contact Us</a>
-              </li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/tapas/">
+        <img src="images/logo.png" alt="Logo" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/tapas/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/tapas/acupuncture.html">Acupuncture</a></li>
+              <li><a class="dropdown-item" href="/tapas/functional-nutrition.html">Functional Nutrition</a></li>
+              <li><a class="dropdown-item" href="/tapas/yoga.html">Yoga</a></li>
+              <li><a class="dropdown-item" href="/tapas/cosmetic.html">Cosmetic Acupuncture</a></li>
+              <li><a class="dropdown-item" href="/tapas/guasha.html">Guasha</a></li>
+              <li><a class="dropdown-item" href="/tapas/moxibustion.html">Moxibustion</a></li>
+              <li><a class="dropdown-item" href="/tapas/pranayama.html">Pranayama</a></li>
+              <li><a class="dropdown-item" href="/tapas/cupping.html">Cupping</a></li>
             </ul>
-            <div class="d-flex">
-              <a class="m-1 social" href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a class="m-1 social" href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a class="m-1 social" href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a class="m-1 social" href="#"><i class="fa-brands fa-youtube"></i></a>
-            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tapas/treatment.html">Treatment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tapas/testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tapas/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tapas/courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tapas/contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- <div class="d-flex">
+          <a class="m-1 social" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="m-1 social" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="m-1 social" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a class="m-1 social" href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div> -->
+        <div class="">
+          <a href="#"> <i class="fa-brands fa-facebook p-1 rounded"> </i></a>
+          <a href="#"><i class="fa-brands fa-twitter p-1 rounded"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram p-1 rounded"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube p-1 rounded"></i></a>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="about-banner" class="position-relative">
+    <img src="images/about/about-us.jpg" alt="" class="img-fluid">
+    <!-- <p class="position-absolute translate-middle text-white fw-bold">ANCIENT WISDOM, MODERN PRACTICE</p> -->
+  </div>
+
+
+  <div id="health" class="py-3 py-md-3 mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="">
+            <h5>TAPAS &nbsp;<span class='special-word'>holistic health systems</span></h5>
+            <div class="line"></div>
+            <p>We work with patients on the all the aspect of health at physio-psyco-energy(Qi) level so that
+              the transformation is whole. Every person is unique in terms of functioning on physical,
+              emotional, mental plane and exists in totally different social environment so the treatment and
+              healing plans should be unique to each. We focus on your wellness inside-out through various
+              therapies and ancient traditional alternative sciences, so that nothing stands between you and
+              your best functioning self.</p>
+            <p>In our body every organ is interlinked and therefore it’s important
+              to look at ailments holistically for complete healing. Therefore, our prime focus is on the root
+              cause of the ailment and not just the symptoms. As a result, you’ll experience a significant
+              transformation on all related aspects of body, mind and energy systems.</p>
           </div>
         </div>
-      </nav>
-
-    <div id="about-banner" class="position-relative">
-        <img src="images/about/about-bg.png" alt="" class="img-fluid">
-        <p class="position-absolute top-50 start-50 translate-middle">Lorem ipsum dolor sit amet, consectetuer</p>
-    </div>
-
-
-    <div id="health" class="py-3 py-md-3 my-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="">
-                        <h5>TAPAS &nbsp;<span class='special-word'>holistic health systems</span></h5>
-                    <hr>
-                    <p>We work with patients on the all the aspect of health at physio-psyco-energy(Qi) level so that
-                        the transformation is whole. Every person is unique in terms of functioning on physical,
-                        emotional, mental plane and exists in totally different social environment so the treatment and
-                        healing plans should be unique to each. We focus on your wellness inside-out through various
-                        therapies and ancient traditional alternative sciences, so that nothing stands between you and
-                        your best functioning self.</p>
-                    <p>In our body every organ is interlinked and therefore it’s important
-                        to look at ailments holistically for complete healing. Therefore, our prime focus is on the root
-                        cause of the ailment and not just the symptoms. As a result, you’ll experience a significant
-                        transformation on all related aspects of body, mind and energy systems.</p>
-                </div>
-                    </div>
-                <div class="col-md-4 align-self-center">
-                   <div class="">
-                    <img src="images/about/image-1.png" alt="" class="img-fluid">
-                   </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="founder" class="py-3 py-md-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                   <div class="">
-                    <h2 class="fs-1">Meet the founder</h2>
-                    <hr>
-                   </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                   <div class="">
-                    <img src="images/about/mission.png" alt="" class="img-fluid my-5">
-                   </div>
-                </div>
-                <div class="col-md-8 align-self-center">
-                   <div class="">
-                    <h3 class="fs-1">Ritika Anchlia</h3>
-                    <h6 class="">-MD(Acu),Yoga Trainer,<br />Nutrition coach(PN)(NASM)</h6>
-                    <p class="pt-4 fs-4">She has been particing holistic health science for various health issues
-                        related to
-                        gastrointestinal, musculoskeletal, respiratory, neurological and gynaecology department for over
-                        a decade now. </p>
-                   </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="words" class="py-3 py-md-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="">
-                        <h2 class="fs-1">In Her words –</h2>
-                    <p class="pt-5">“I have had a lot of success in treating people for general as well as chronic
-                        ailments through
-                        holistic approach by using Acupuncture, Yoga and Nutrition (food is medicine) and other amazing
-                        ancient therapies, in an integrative way.</p>
-                    <p>The fundamental is to see the body as a whole to find the root cause of any health concern. Every
-                        organ is interlinked and has an impact on physical,
-                        mental, emotional and eventually functional level. Our expertise lies in working on the root
-                        cause and not just treating the symptoms superficially.</p>
-                    <p>We provide holistic transformation through acupuncture, yoga, nutrition and lifestyle changes. We
-                        have a team of licensed and
-                        experienced practitioners for these services to bring a positive change and help live better.
-                    </p>
-                    <p>We practice therapies involved in holistic healing and are also lifestyle oriented. These can go
-                        along with your conventional medicine and in certain ailments can support your primary
-                        treatment. We are not against western medicine-Allopathy. Medicine is useful, effective for many
-                        health conditions and emergencies where the immediate intervention is a must. I believe every
-                        science has its benefits and limitations, why restrict to ONE!!</p>
-                    <p>Yes, why restrict to One, when
-                        we can choose from many such amazing ancient therapies which are in practice for thousands of
-                        years and are significantly effective as well as popular in many other countries.</p>
-                    <p> I strongly believe in the sciences which stimulates the self-healing mechanisms of the body and
-                        has the
-                        power to make a positive change. For example, Acupuncture is one such amazing science,
-                        clinically proven and WHO approved for treating many acute and chronic ailments. We are here to
-                        provide you a platform, here you can avail benefits of these ancient sciences and age-old
-                        wisdom.”</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="vision" class="py-3 py-md-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="">
-                        <h2>Vision</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="vision1" class="py-3 py-md-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 align-self-center">
-                    <div class="py-2">
-                        <img src="images/about/mission.png" alt="" class="img-fluid">
-                        <h3 class="text-center">Vision</h3>
-                    </div>
-                </div>
-                <div class="col-md-8 align-self-center">
-                    <div class="">
-                        <p>TAPAS’s vision is to empower people with better health by integrating three dimensions; Mind-
-                            Body- Energy meridians (Qi/chi).</p>
-                        <p> We put together a highly customized integrative health-plan
-                            (Acupuncture, Yoga, Nutrition, Herbs and more) to assist in healing from within and without
-                            any
-                            side-effects. Each of us have a unique body constitution and therefore a need of customized
-                            health plan.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-    <div id="footer" class="">
-        <div class="wrap pt-3 pt-md-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="#">
-                  <img src="images/logo.png" alt="Logo" class="img-fluid">
-                </a>
-                <ul class="list-unstyled">
-                  <li class="py-1"><i class="fa-sharp fa-solid fa-location-dot"></i> <a href="#"
-                      class="text-decoration-none text-dark">Address</a></li>
-                  <li class="py-1"><span class="custom"><i class="fa-brands fa-whatsapp"></i></span><a
-                      href="tel:09606267947" class="text-decoration-none text-dark">+91 9606267947</a></li>
-                  <li class="py-1"><i class="fa-solid fa-envelope me-2"></i> <a href="mailto:info@xxxx.com"
-                      class="text-decoration-none text-dark">info@.in</a></li>
-    
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul class="list-unstyled mt-5 pt-4">
-                  <li><a href="/about-us.html" class="custom-link text-decoration-none text-dark">About Us</a></li>
-                  <li><a href="/services.html" class="custom-link text-decoration-none text-dark">Services</a>
-                  </li>
-                  <li><a href="/gallery.html" class="custom-link text-decoration-none text-dark">Gallery</a></li>
-                  <li><a href="/testimonials.html" class="custom-link text-decoration-none text-dark">Testimonials</a>
-                  </li>
-                  <li><a href="/Newslatters/Articles.html"
-                      class="custom-link text-decoration-none text-dark">Newslatters/Articles</a></li>
-                </ul>
-                <div class="d-flex pb-3">
-                  <div class="">
-                    <input type="email" placeholder="Email" class="form-control" />
-                  </div>
-                  <div class="">
-                    <a href="/contact-us.html" class="btn btn-custom text-uppercase">Submit</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <h3 class="mt-5 pt-4">Follow us on:</h3>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="custom-link text-decoration-none text-dark">Facebook</a></li>
-                  <li><a href="#" class="custom-link text-decoration-none text-dark">Twitter</a></li>
-                  <li><a href="#" class="custom-link text-decoration-none text-dark">Instagram</a></li>
-                  <li><a href="#" class="custom-link text-decoration-none text-dark">Youtube</a></li>
-                </ul>
-              </div>
-            </div>
+        <div class="col-md-4 align-self-center">
+          <div class="">
+            <img src="images/about/image-1.png" alt="" class="img-fluid">
           </div>
         </div>
-    
-        <div id="custom">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <p class="text-center text-black mb-0 p-2">©Copyright Tapas 2022 All Right Reserved. Design & Devloped by <a
-                    href="#" target="_blank" class="text-decoration-none text-dark">LDCB</a></p>
-              </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="founder" class="py-1 py-md-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <h2 class="fs-1">Meet the founder</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="founder1" class="py-1 py-md-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="">
+            <img src="images/about/founder-photo.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-8 align-self-center">
+          <div class="">
+            <h3 class="pt-2 text-dark">Ritika Anchlia</h3>
+            <div class="line"></div>
+            <h5 class="">-MD(Acu),Yoga Trainer,<br />Nutrition coach(PN)(NASM)</h5>
+            <p class="pt-2 fs-4">She has been particing holistic health science for various health issues
+              related to
+              gastrointestinal, musculoskeletal, respiratory, neurological and gynaecology department for over
+              a decade now. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="words" class="py-2 py-md-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <h2 class="fs-1">In Her words –</h2>
+            <p class="">“I have had a lot of success in treating people for general as well as chronic
+              ailments through
+              holistic approach by using Acupuncture, Yoga and Nutrition (food is medicine) and other amazing
+              ancient therapies, in an integrative way.</p>
+            <p>The fundamental is to see the body as a whole to find the root cause of any health concern. Every
+              organ is interlinked and has an impact on physical,
+              mental, emotional and eventually functional level. Our expertise lies in working on the root
+              cause and not just treating the symptoms superficially.</p>
+            <p>We provide holistic transformation through acupuncture, yoga, nutrition and lifestyle changes. We
+              have a team of licensed and
+              experienced practitioners for these services to bring a positive change and help live better.
+            </p>
+            <p>We practice therapies involved in holistic healing and are also lifestyle oriented. These can go
+              along with your conventional medicine and in certain ailments can support your primary
+              treatment. We are not against western medicine-Allopathy. Medicine is useful, effective for many
+              health conditions and emergencies where the immediate intervention is a must. I believe every
+              science has its benefits and limitations, why restrict to ONE!!</p>
+            <p>Yes, why restrict to One, when
+              we can choose from many such amazing ancient therapies which are in practice for thousands of
+              years and are significantly effective as well as popular in many other countries.</p>
+            <p> I strongly believe in the sciences which stimulates the self-healing mechanisms of the body and
+              has the
+              power to make a positive change. For example, Acupuncture is one such amazing science,
+              clinically proven and WHO approved for treating many acute and chronic ailments. We are here to
+              provide you a platform, here you can avail benefits of these ancient sciences and age-old
+              wisdom.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="vision" class="py-3 py-md-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <h2>Vision</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="vision1" class="py-1 py-md-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 align-self-center">
+          <div class="py-2">
+            <img src="images/about/mission.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-8 align-self-center">
+          <div class="">
+            <p>TAPAS’s vision is to empower people with better health by integrating three dimensions; Mind-
+              Body- Energy meridians (Qi/chi).</p>
+            <p> We put together a highly customized integrative health-plan
+              (Acupuncture, Yoga, Nutrition, Herbs and more) to assist in healing from within and without
+              any
+              side-effects. Each of us have a unique body constitution and therefore a need of customized
+              health plan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="footer" class="mt-3">
+    <div class="wrap pt-3 pt-md-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <img src="images/logo.png" alt="Logo" class="img-fluid p-2 rounded">
+            </a>
+            <ul class="list-unstyled pt-3">
+              <li class="py-1"><i class="fa-sharp fa-solid fa-location-dot text-danger"></i> <a href="#"
+                  class="text-decoration-none text-white">Address</a></li>
+              <li class="py-1"><span class="custom"><i class="fa-brands fa-whatsapp text-success"></i></span><a
+                  href="tel:09606267947" class="text-decoration-none text-white"> +91 xxxxxxxxxx</a>
+              </li>
+              <li class="py-1"><i class="fa-solid fa-envelope me-2 text-primary"></i> <a href="mailto:info@xxxx.com"
+                  class="text-decoration-none text-white">info@.in</a></li>
+
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled mt-2 pt-2">
+              <li><a href="/tapas/about-us.html" class="custom-link text-decoration-none text-white">About Us</a>
+              </li>
+              <li><a href="/tapas/acupuncture.html" class="custom-link text-decoration-none text-white">Services</a>
+              </li>
+              <li><a href="/tapas/treatment.html" class="custom-link text-decoration-none text-white">Treatment</a>
+              </li>
+              <li><a href="/tapas/gallery.html" class="custom-link text-decoration-none text-white">Gallery</a>
+              </li>
+              <li><a href="/tapas/testimonials.html" class="custom-link text-decoration-none text-white">Testimonials</a>
+              </li>
+              <li><a href="/tapas/courses.html" class="custom-link text-decoration-none text-white">Courses</a>
+              </li>
+              <li><a href="/tapas/Newslatters/Articles.html"
+                  class="custom-link text-decoration-none text-white">Newslatters/Articles</a></li>
+            </ul>
+            <!-- <div class="d-flex pb-3">
+                        <div class="">
+                            <input type="email" placeholder="Email" class="form-control" />
+                        </div>
+                        <div class="">
+                            <a href="/tapas/contact-us.html" class="btn btn-custom text-uppercase">Submit</a>
+                        </div>
+                    </div> -->
+          </div>
+          <div class="col-md-4">
+            <h3 class="mt-2 py-2 fs-4"><b>Follow us on:</b></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-facebook p-1"></i>
+                  Facebook</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-twitter p-1"></i>
+                  Twitter</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i
+                    class="fa-brands fa-instagram text-white p-1"></i> Instagram</a></li>
+              <li><a href="#" class="custom-link text-decoration-none text-white"><i class="fa-brands fa-youtube p-1"></i>
+                  Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="custom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <p class=" mb-0 p-2 fs-5">Copyright © Tapas holistic health systemsTapas 2022
+              All Right Reserved. Design &
+              Devloped by <a href="#" target="_blank" class="text-decoration-none text-white">LDCB</a></p>
+          </div>
+          <div class="col-md-3 align-self-center">
+            <div class="">
+              <a href="/tapas/terms.html" class="text-white text-decoration-none fs-5 border border-1 p-1">TERMS &
+                CONDITIONS</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
+  <!-- Optional JavaScript; choose one of the two! -->
 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+    integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="js/main.js"></script>
 
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
-        integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="js/main.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
