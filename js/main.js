@@ -105,6 +105,9 @@ function validateHomeContact() {
         
     $("#home-name-info").html("");
     $("#home-name").css('border-color','#5cb85c');
+
+    $("#home-email-info").html("");
+    $("#home-email").css('border-color','#5cb85c');
     
     if(!$("#home-name").val()) {
         $("#home-name-info").html("Enter Your Name");
@@ -113,12 +116,71 @@ function validateHomeContact() {
     }
     if(!$("#home-email").val()) {
         $("#home-email-info").html("(required)");
-        $("#home-email").css('background-color','#FFFFDF');
+        $("#home-email").css('border-color','#dc3545');
         valid = false;
     }
     if(!$("#home-email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
         $("#home-email-info").html("(invalid)");
-        $("#home-email").css('background-color','#FFFFDF');
+        $("#home-email").css('border-color','#dc3545');
+        valid = false;
+    }
+    
+    return valid;
+    
+}
+
+//home-1
+
+function sendHomeContact1() {
+    var valid;  
+    valid = validateHomeContact1();
+    
+    if(valid) {
+        jQuery.ajax({
+        url: "home-mail1.php",
+        type: "POST",
+        data:'home-name1'+$("#home-name1").val()+'&home-email1='+$("#home-email1").val(),
+        
+        success:function(data){
+        $("#home-mail-status1").html(data);
+        dataclear();
+
+        },
+        error:function (data){
+        $("#home-mail-status1").html(data);
+        }
+        });
+    }
+}
+
+function dataclear(){
+    $("#home-name1").val('');
+    $("#home-email1").val('');
+}
+
+function validateHomeContact1() {
+    var valid = true;   
+    //alert("HI");
+        
+    $("#home-name1-info").html("");
+    $("#home-name1").css('border-color','#5cb85c');
+
+    $("#home-email1-info").html("");
+    $("#home-email1").css('border-color','#5cb85c');
+    
+    if(!$("#home-name1").val()) {
+        $("#home-name1-info").html("Enter Your Name");
+        $("#home-name1").css('border-color','#dc3545');
+        valid = false;
+    }
+    if(!$("#home-email1").val()) {
+        $("#home-email1-info").html("(required)");
+        $("#home-email1").css('border-color','#dc3545');
+        valid = false;
+    }
+    if(!$("#home-email1").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+        $("#home-email1-info").html("(invalid)");
+        $("#home-email1").css('border-color','#dc3545');
         valid = false;
     }
     

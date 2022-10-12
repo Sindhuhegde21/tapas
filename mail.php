@@ -47,7 +47,7 @@ try {
         $mail->Body   .= "</body></html>";
 
     $mail->send();
-    echo "<p class='alert alert-success m-2'><strong>Thanks for contacting us. We will reach you soon.</strong></p>";
+    echo "<p class='alert alert-success m-2'>Thanks for contacting us. We will reach you soon.</p>";
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
