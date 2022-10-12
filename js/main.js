@@ -70,3 +70,58 @@ function validateContact() {
     return valid;
     
 }
+
+//home
+function sendHomeContact() {
+    var valid;  
+    valid = validateHomeContact();
+    
+    if(valid) {
+        jQuery.ajax({
+        url: "home-mail.php",
+        type: "POST",
+        data:'home-name='+$("#home-name").val()+'&home-email='+$("#home-email").val(),
+        
+        success:function(data){
+        $("#home-mail-status").html(data);
+        dataclear();
+
+        },
+        error:function (data){
+        $("#home-mail-status").html(data);
+        }
+        });
+    }
+}
+
+function dataclear(){
+    $("#home-name").val('');
+    $("#home-email").val('');
+}
+
+function validateHomeContact() {
+    var valid = true;   
+    //alert("HI");
+        
+    $("#home-name-info").html("");
+    $("#home-name").css('border-color','#5cb85c');
+    
+    if(!$("#home-name").val()) {
+        $("#home-name-info").html("Enter Your Name");
+        $("#home-name").css('border-color','#dc3545');
+        valid = false;
+    }
+    if(!$("#home-email").val()) {
+        $("#home-email-info").html("(required)");
+        $("#home-email").css('background-color','#FFFFDF');
+        valid = false;
+    }
+    if(!$("#home-email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+        $("#home-email-info").html("(invalid)");
+        $("#home-email").css('background-color','#FFFFDF');
+        valid = false;
+    }
+    
+    return valid;
+    
+}

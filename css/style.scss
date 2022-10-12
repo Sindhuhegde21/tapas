@@ -1236,3 +1236,13 @@ $ternarycolor-color: #ffffff;
     font-size: 22px;
    }
   }
+  #testimonial-message{
+    .container{
+    border-color: $primary-color;
+    border-radius: 29px;
+    border-style: solid;
+    }
+    p{
+      font-size:22px;
+    }
+  }
