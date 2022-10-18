@@ -1,10 +1,9 @@
-
 @font-face {
   font-family: BellMT;
   src: url(../fonts/Bell\ MT.ttf);
 }
 
-body{
+body {
   font-family: BellMT;
 }
 
@@ -16,19 +15,20 @@ $ternarycolor-color: #ffffff;
   background-color: #838181;
   color: #fff !important;
   font-size: 16px;
-  .img-fluid{
+  .img-fluid {
     background-color: #fff !important;
   }
-  .custom-link{
-    &:hover, &.active{
-    color:$primary-color !important;
+  .custom-link {
+    &:hover,
+    &.active {
+      color: $primary-color !important;
     }
   }
   .btn-custom {
     background-color: $primary-color;
     color: $ternarycolor-color;
     padding: 6px 24px;
-  } 
+  }
 }
 #navbar {
   background-color: $ternarycolor-color !important;
@@ -36,34 +36,35 @@ $ternarycolor-color: #ffffff;
     padding: 15px 20px;
     font-size: 20px;
     font-weight: 400;
-    color:#000 !important;
-    &:hover, &.active {
-      color: $primary-color !important;
-    }
-  }
-  .dropdown {
-    &:hover {
-       .dropdown-menu {
-        display: block;
-      }
-    }
-  }
-  .dropdown-item {
     color: #000 !important;
-    background-color: #fff !important;
-    &:hover, &.active {
+    &:hover,
+    &.active {
       color: $primary-color !important;
-      background-color: #fff !important;
     }
   }
-  // .social {
-  //   color: black;
-  //   &:hover {
-  //     color: $primary-color !important;
-  //   }
-  // }
-
 }
+.dropdown {
+  &:hover {
+    .dropdown-menu {
+      display: block;
+    }
+  }
+}
+.dropdown-item {
+  color: #000 !important;
+  background-color: #fff !important;
+  &:hover,
+  &.active {
+    color: $primary-color !important;
+    background-color: #fff !important;
+  }
+}
+// .social {
+//   color: black;
+//   &:hover {
+//     color: $primary-color !important;
+//   }
+// }
 .fa-brands {
   padding: 20px;
   font-size: 30px;
@@ -71,17 +72,17 @@ $ternarycolor-color: #ffffff;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-.fa-brands:hover {
+  .fa-brands:hover {
     opacity: 0.7;
-}
+  }
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .fa-instagram {
@@ -95,12 +96,13 @@ $ternarycolor-color: #ffffff;
 
 #custom {
   background-color: $primary-color;
-  color:white;
+  color: white;
 }
 
 #second {
   p {
     font-size: 22px;
+    text-align: justify;
   }
   .btn-custom {
     background-color: $primary-color;
@@ -111,7 +113,8 @@ $ternarycolor-color: #ffffff;
 }
 
 #carouselExampleIndicators {
-  h1, h3 {
+  h1,
+  h3 {
     font-family: myFirstFont;
   }
 }
@@ -128,7 +131,7 @@ $ternarycolor-color: #ffffff;
     text-align: center;
     border-radius: 12px;
     &::placeholder {
-      color:rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
     }
   }
   .btn-custom {
@@ -157,12 +160,12 @@ $ternarycolor-color: #ffffff;
     font-size: 22px;
     // color: #444444;
   }
-  .line{
-    width:24%;
-    margin:0 auto;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 24%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
   .special-word {
     color: $primary-color;
     font-size: 40px;
@@ -173,7 +176,7 @@ $ternarycolor-color: #ffffff;
   // h4{
   //   color:$primary-color;
   // }
-  .customhover{
+  .customhover {
     &:hover {
       .image {
         opacity: 0.6;
@@ -192,7 +195,7 @@ $ternarycolor-color: #ffffff;
     color: $ternarycolor-color;
     border-radius: 15px;
   }
-  .customhover1{
+  .customhover1 {
     &:hover {
       .image1 {
         opacity: 0.6;
@@ -207,7 +210,7 @@ $ternarycolor-color: #ffffff;
   .custom1 {
     opacity: 0;
   }
-  .customhover2{
+  .customhover2 {
     &:hover {
       .image2 {
         opacity: 0.6;
@@ -221,15 +224,15 @@ $ternarycolor-color: #ffffff;
   .custom2 {
     opacity: 0;
   }
-  .customhover3{
+  .customhover3 {
     &:hover {
       .image3 {
         opacity: 0.6;
       }
       .custom3 {
         opacity: 1;
-       width: 100%;
-       text-align: center;
+        width: 100%;
+        text-align: center;
       }
     }
   }
@@ -237,7 +240,7 @@ $ternarycolor-color: #ffffff;
     opacity: 0;
   }
 
-  .customhover4{
+  .customhover4 {
     &:hover {
       .image4 {
         opacity: 0.6;
@@ -252,7 +255,7 @@ $ternarycolor-color: #ffffff;
     opacity: 0;
   }
 
-  .customhover5{
+  .customhover5 {
     &:hover {
       .image5 {
         opacity: 0.6;
@@ -267,7 +270,7 @@ $ternarycolor-color: #ffffff;
     opacity: 0;
   }
 
-  .customhover6{
+  .customhover6 {
     &:hover {
       .image6 {
         opacity: 0.6;
@@ -315,37 +318,37 @@ $ternarycolor-color: #ffffff;
     font-size: 18px;
     // color: #6e6e6e;
   }
-  .line{
-    width:35%;
-    margin:0 auto;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 35%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
 }
 
-#yoga1{
+#yoga1 {
   background-image: url(../images/services/yoga-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-    p {
-      font-size: 22px;
-      // color: #6e6e6e;
-    }
+  p {
+    font-size: 22px;
+    // color: #6e6e6e;
   }
-  // #about-banner{
-  //   font-family: britanicbold;
-  //   src: url(../fonts/BritannicBoldRegular.ttf);
-  //   p{
-  //     position: absolute;
-  //     top: 50%;
-  //     left: 34%;
-  //     transform: translate(-107%, 61%);
-  //     font-size: 40px;
-  //     color:#000;
-  //     text-align: right;
-  //   }
-  // }
+}
+// #about-banner{
+//   font-family: britanicbold;
+//   src: url(../fonts/BritannicBoldRegular.ttf);
+//   p{
+//     position: absolute;
+//     top: 50%;
+//     left: 34%;
+//     transform: translate(-107%, 61%);
+//     font-size: 40px;
+//     color:#000;
+//     text-align: right;
+//   }
+// }
 #health {
   h5 {
     font-size: 48px;
@@ -353,17 +356,17 @@ $ternarycolor-color: #ffffff;
   }
   p {
     font-size: 22px;
-    // color: #444444;
+    text-align: justify;
   }
   .special-word {
     color: $primary-color;
     font-size: 40px;
   }
-  .line{
-    width:66%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 66%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
 }
 
 #words {
@@ -373,34 +376,37 @@ $ternarycolor-color: #ffffff;
   }
   p {
     font-size: 22px;
-    // color: #696969;
+    text-align: justify;
   }
 }
 #founder {
-  .line{
-    width:24%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 24%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
 }
-#founder1{
-  .line{
-    width:22%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+#founder1 {
+  .line {
+    width: 22%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    text-align: justify;
+  }
 }
 
-#vision{
-  h2{
+#vision {
+  h2 {
     // color:#6E6E6E;
-    font-size:42px;
+    font-size: 42px;
   }
-  .line{
-    width:8%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 8%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
 }
 #vision1 {
   .container {
@@ -415,6 +421,7 @@ $ternarycolor-color: #ffffff;
   }
   p {
     font-size: 22px;
+    text-align: justify;
   }
 }
 #first {
@@ -426,7 +433,7 @@ $ternarycolor-color: #ffffff;
     left: 150px;
     background-blend-mode: 70%;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     padding-left: 20px;
     padding-right: 32px;
     font-size: 54px;
@@ -447,7 +454,7 @@ $ternarycolor-color: #ffffff;
   }
   p {
     position: absolute;
-    width:120%;
+    width: 120%;
     bottom: 151px;
     left: 70px;
     font-size: 30px;
@@ -475,14 +482,14 @@ $ternarycolor-color: #ffffff;
     left: 150px;
     background-blend-mode: 70%;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     padding-left: 20px;
     padding-right: 32px;
     font-size: 54px;
   }
   p {
     position: absolute;
-    width:120%;
+    width: 120%;
     bottom: 258px;
     left: 70px;
     font-size: 30px;
@@ -509,14 +516,14 @@ $ternarycolor-color: #ffffff;
     left: 150px;
     background-blend-mode: 70%;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     padding-left: 20px;
     padding-right: 32px;
     font-size: 54px;
   }
   p {
     position: absolute;
-    width:120%;
+    width: 120%;
     bottom: 263px;
     left: 70px;
     font-size: 30px;
@@ -543,14 +550,14 @@ $ternarycolor-color: #ffffff;
     left: 150px;
     background-blend-mode: 70%;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     padding-left: 20px;
     padding-right: 32px;
     font-size: 54px;
   }
   p {
     position: absolute;
-    width:120%;
+    width: 120%;
     bottom: 263px;
     left: 70px;
     font-size: 30px;
@@ -579,11 +586,11 @@ $ternarycolor-color: #ffffff;
     font-size: 22px;
     // color: #6e6e6e;
   }
-  .line{
-    width:71%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 71%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
   .special-word {
     color: $primary-color;
     font-size: 48px;
@@ -600,12 +607,12 @@ $ternarycolor-color: #ffffff;
     // color: #6e6e6e;
     font-weight: 600;
   }
-  .line{
-    width:19%;
-    margin:0 auto;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 19%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
   p {
     font-size: 22px;
     // color: #444444;
@@ -633,12 +640,12 @@ $ternarycolor-color: #ffffff;
     text-align: center;
     font-weight: 500;
   }
-  .line{
-    width:56%;
-    margin:0 auto;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
+  .line {
+    width: 56%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
 }
 
 #Neurological,
@@ -649,50 +656,53 @@ $ternarycolor-color: #ffffff;
   .img-fluid {
     border-radius: 40px;
   }
-  p{
-    font-size:22px;
+  p {
+    font-size: 22px;
+    text-align: justify;
     // color:#444444;
   }
 }
-#human-body{
-  h2{
+#human-body {
+  h2 {
     // color:#6E6E6E;
-    font-size:40px;
+    font-size: 40px;
   }
   .special-word {
     color: $primary-color;
     font-size: 40px;
   }
-  .line{
-    width:38%;
-    margin:0 auto;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
- }
-}
-#human-body1{
-  h3 {
-    background-color:$primary-color;
-    text-align: center;
-    margin:0px;
-    color: #fff;
+  .line {
+    width: 38%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
   }
-  p{
-    font-size:20px;
-    // color:#6e6e6e;
-  }
-}
-#human-body2{
-  h2 {
-    font-size: 35px;
-    // color: #6e6e6e;
-  }
-  p{
-    font-size:24px;
-    // color:#444444;
-  }
-}
 
+  .human-body1 {
+    h3 {
+      background-color: $primary-color;
+      text-align: center;
+      margin: 0px;
+      color: #fff;
+    }
+    p {
+      font-size: 20px;
+      text-align: justify;
+      // color:#6e6e6e;
+    }
+  }
+  .human-body2 {
+    h2 {
+      font-size: 35px;
+      // color: #6e6e6e;
+    }
+    p {
+      font-size: 24px;
+      text-align: justify;
+      // color:#444444;
+    }
+  }
+}
 #stress {
   h2 {
     font-size: 35px;
@@ -705,41 +715,45 @@ $ternarycolor-color: #ffffff;
   .img-fluid {
     border-radius: 40px;
   }
-  p{
-    font-size:22px;
+  p {
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+#improve-memory,
+#Cosmetic,
+#Cosmetic1 {
+  p {
+    font-size: 22px;
+    text-align: justify;
     // color:#444444;
   }
 }
-#improve-memory, #Cosmetic, #Cosmetic1{
-  p{
-    font-size:22px;
-    // color:#444444;
-  }
-}
-#need{
+#need {
   // background-image: url;
-  h3{
-    color:$ternarycolor-color;
-    background-color:$primary-color;
-    text-align:center;
-    margin:0px;
-    font-size:22px;
+  h3 {
+    color: $ternarycolor-color;
+    background-color: $primary-color;
+    text-align: center;
+    margin: 0px;
+    font-size: 22px;
   }
-  p{
-    background-color:#E5DFDF;
-    font-size:20px;
-    padding:10px 10px;
+  p {
+    background-color: #e5dfdf;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: justify;
   }
 }
 
 #really-need {
   h2 {
     font-size: 45px;
-    color:#000; 
+    color: #000;
   }
   h3 {
     font-size: 35px;
-    color: $primary-color;;
+    color: $primary-color;
   }
   p {
     font-size: 22px;
@@ -747,160 +761,67 @@ $ternarycolor-color: #ffffff;
   }
 }
 
-#list{
-  p{
+#list {
+  p {
     font-size: 22px;
     // color:#444444;
   }
 }
 
-#contact{
-  h3{
-    background-color:$primary-color;
-    color:$ternarycolor-color;
+#contact {
+  h3 {
+    background-color: $primary-color;
+    color: $ternarycolor-color;
   }
 }
 
-#contact-details{
-  p{
+#contact-details {
+  p {
     font-size: 21px;
+    text-align: justify;
+  }
+  // .img-fluid{
+  // }
+}
+
+#nutrition {
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 42%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+#therapeutic-yoga1 {
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 28%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    font-size: 22px;
+    text-align: justify;
   }
 }
 
-#nutrition{
-    h3 {
-      font-size: 40px;
-      font-weight: 600;
-    }
-    .line{
-       width:42%;
-       margin:0 auto;
-       border-top:2px solid $primary-color;
-       margin-bottom:1.7rem;
-    }
-    p {
-      font-size: 20px;
-    }
+#yoga-last {
+  background-color: $primary-color;
+  p {
+    color: $ternarycolor-color;
+    font-size: 25px;
   }
-  #therapeutic-yoga1{
-    h3 {
-      font-size: 40px;
-      font-weight: 600;
-    }
-    .line{
-      width:28%;
-      margin:0 auto;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
-    p {
-      font-size: 22px;
-    }
-  }
-
-  #yoga-last {
-    background-color: $primary-color;
-    p {
-      color: $ternarycolor-color;
-      font-size: 25px;
-    }
-    .btn-custom {
-      color: $primary-color;
-      background-color: $ternarycolor-color;
-      text-align: center;
-      border-radius: 12px;
-      font-weight: bold;
-    }
-  }
-
-  #points, ul{
-    font-size: 22px;
-  }
-
-  #cosmetic1{
-      h2 {
-        font-size: 40px;
-        font-weight: 600;
-      }
-      .line{
-        width:28%;
-        margin:0 auto;
-        border-top:2px solid $primary-color;
-        margin-bottom:1.7rem;
-     }
-    }
-    #every-part{  
-      p {
-        font-size: 22px;
-      }
-    }
-    #guasha{
-      p {
-        font-size: 22px;
-      }
-      h2 {
-        font-size: 40px;
-        font-weight: 600;
-      }
-      .line{
-        width:8%;
-        margin:0 auto;
-        border-top:2px solid $primary-color;
-        margin-bottom:1.7rem;
-     }
-    }
-
-    #moxibustion1{
-      h2 {
-        font-size: 40px;
-        font-weight: 600;
-      }
-      .line{
-        width:15%;
-        margin:0 auto;
-        border-top:2px solid $primary-color;
-        margin-bottom:1.7rem;
-     }
-     p {
-      font-size: 22px;
-    }
-    }
-    #moxibustion-last{
-      background-color: $primary-color;
-      p {
-        color: $ternarycolor-color;
-        font-size: 25px;
-      }
-    .btn-custom {
-      color: $primary-color;
-      background-color: $ternarycolor-color;
-      text-align: center;
-      border-radius: 12px;
-      font-weight: bold;
-    }
-  }
-
-  #pranayama-middle{
-    h2 {
-      font-size: 40px;
-      font-weight: 600;
-    }
-    .line{
-      width:13%;
-      margin:0 auto;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
-   p {
-    font-size: 22px;
-  }
-  }
-  #pranayama-last{
-    background-color: $primary-color;
-    p {
-      color: $ternarycolor-color;
-      font-size: 25px;
-    }
   .btn-custom {
     color: $primary-color;
     background-color: $ternarycolor-color;
@@ -908,341 +829,465 @@ $ternarycolor-color: #ffffff;
     border-radius: 12px;
     font-weight: bold;
   }
-  }
+}
 
-  #cupping-top{
-    h2 {
-      font-size: 40px;
-      font-weight: 600;
-    }
-    .line{
-      width:54%;
-      margin:0 auto;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
-   p {
+#points,
+ul {
+  font-size: 22px;
+}
+
+#cosmetic1 {
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 28%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+#every-part {
+  p {
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+#guasha {
+  p {
     font-size: 22px;
   }
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 8%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+
+#moxibustion1 {
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 15%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+#moxibustion-last {
+  background-color: $primary-color;
+  p {
+    color: $ternarycolor-color;
+    font-size: 25px;
+  }
+  .btn-custom {
+    color: $primary-color;
+    background-color: $ternarycolor-color;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+}
+
+#pranayama-middle {
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 13%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+#pranayama-last {
+  background-color: $primary-color;
+  p {
+    color: $ternarycolor-color;
+    font-size: 25px;
+  }
+  .btn-custom {
+    color: $primary-color;
+    background-color: $ternarycolor-color;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+}
+
+#cupping-top {
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .line {
+    width: 54%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+
+#treatment {
+  h3 {
+    font-size: 28px;
+    background-color: $primary-color;
+    color: #fff;
+  }
+  ul {
+    font-size: 22px;
+  }
+  p {
+    font-size: 118px;
   }
 
-  #treatment{
-    h3{
-      font-size:28px;
-      background-color: $primary-color;
-      color:#fff;
-    }
-    ul{
-      font-size:22px;
-    }
-    p{
-      font-size:118px;
-    }
-    // nav{
-    //   .nav-link{
-    //     color:white;
-    //     .nav-link:hover{    
-    //     background-color:$primary-color;
-    //     }
-    //   }
-    // }
-    nav{
-      .nav-link {
-        color: #000 !important;
-        font-weight: 600;
-        &.active,
-        &:hover {
-          background-color:#575656;
-          color: #fff !important;
-        }
+  nav {
+    .nav-link {
+      color: #000 !important;
+      font-weight: 600;
+      &.active,
+      &:hover {
+        background-color: #575656;
+        color: #fff !important;
       }
     }
   }
+}
 
-  #terms{
-    p{
-      font-size: 21px;
-    }
-    .line{
-      width:16%;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
+#terms {
+  p {
+    font-size: 21px;
+    text-align: justify;
   }
-  #testimony,  #submission, #correction, #disclaimer,  #contacts{
-    p{
-      font-size: 21px;
-    }
-    .line{
-      width:13%;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }  
+  .line {
+    width: 16%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
   }
-  #third-party{
-    p{
-      font-size: 21px;
-    }
-    .line{
-      width:36%;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
+}
+#testimony,
+#submission,
+#correction,
+#disclaimer,
+#contacts {
+  p {
+    font-size: 21px;
+    text-align: justify;
   }
-  #limitation{
-    p{
-      font-size: 21px;
-      // text-transform:;
+  .line {
+    width: 13%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+#third-party {
+  p {
+    font-size: 21px;
+    text-align: justify;
+  }
+  .line {
+    width: 36%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+#limitation {
+  p {
+    font-size: 21px;
+    text-align: justify;
+  }
+  .line {
+    width: 25%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+
+#treatment-last {
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+#images {
+  background-image: url(../images/img-1.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#images1 {
+  h2 {
+    color: #fff;
+    font-size: 40px;
+  }
+  .custom {
+    top: 20% !important;
+  }
+  .btn-custom {
+    background-color: $primary-color;
+    color: $ternarycolor-color;
+    border-radius: 15px;
+    width: 18%;
+  }
+}
+#testimonials {
+  h2 {
+    background-color: $primary-color;
+    color: $ternarycolor-color;
+  }
+}
+#video,
+#video1,
+#video2,
+#video3,
+#video4,
+#video5,
+#video6 {
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 430px) {
+  #about-banner {
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      left: 37% !important;
     }
-    .line{
-      width:25%;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
   }
 
-  #treatment-last{
-    h5{
-      font-size:20px;
-    }
-    p{
-      font-size:18px;
-    }
-  }
-
-  #images{
-    background-image: url(../images/img-1.png);
-    background-size: contain;
-    background-repeat: repeat-y;
-    background-position: center center;
-  }
-
-  #images1{
-    h2{
-      color:#fff;
-      font-size: 40px;
-    }
-    .custom{
-      top:20% !important;
+  #images1 {
+    .custom-img {
+      height: 800px !important;
     }
     .btn-custom {
-      background-color: $primary-color;
+      width: 70%;
+    }
+  }
+}
+#terms {
+  p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #first {
+    h1 {
+      position: absolute;
+      bottom: 400px;
+      left: 150px;
+      background-blend-mode: 70%;
+      background-color: #000;
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 32px;
+      font-size: 54px;
+    }
+    h3 {
+      position: absolute;
+      bottom: 267px;
+      left: 548px;
+      background-color: #000;
+      background-blend-mode: 70%;
+      color: #fff;
+      padding-left: 19px;
+      padding-right: 30px;
+      font-size: 54px;
+    }
+    p {
+      position: absolute;
+      width: 120%;
+      bottom: 98px;
+      left: 70px;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      padding-left: 80px;
+      padding-right: 731px;
+      text-align: left;
+    }
+    .btn-custom {
       color: $ternarycolor-color;
-      border-radius: 15px;
-      width:18%;
+      background-color: $primary-color;
+      position: absolute;
+      bottom: -14px;
+      padding: 10px 43px;
+      margin-left: -550px !important;
     }
   }
-  #testimonials{
-      h2{
-        background-color:$primary-color;
-        color:$ternarycolor-color;
-      }
-  }
-  #video, #video1, #video2, #video3, #video4, #video5, #video6{
-    p{
-      font-size: 20px;
+  #first1 {
+    h1 {
+      position: absolute;
+      bottom: 438px;
+      left: 150px;
+      background-blend-mode: 70%;
+      background-color: #000;
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 32px;
+      font-size: 54px;
+    }
+    p {
+      position: absolute;
+      width: 120%;
+      bottom: 202px;
+      left: 70px;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      padding-left: 80px;
+      padding-right: 731px;
+      text-align: left;
+    }
+    .btn-custom {
+      color: $ternarycolor-color;
+      background-color: $primary-color;
+      position: absolute;
+      bottom: 80px;
+      padding: 10px 43px;
+      margin-left: -558px !important;
     }
   }
-
-  @media (min-width: 100px) and (max-width: 430px) 
-  {
-    #about-banner{
-      p{
-        font-size: 18px;
-        font-weight: 600;
-        left: 37% !important;
-      }
+  #first4 {
+    h1 {
+      position: absolute;
+      bottom: 417px;
+      left: 150px;
+      background-blend-mode: 70%;
+      background-color: #000;
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 32px;
+      font-size: 54px;
     }
-
-    #images1{
-      .custom-img {
-        height: 800px !important;
-      }
-      .btn-custom{
-        width:70%;
-      }
+    p {
+      position: absolute;
+      width: 120%;
+      bottom: 225px;
+      left: 70px;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      padding-left: 80px;
+      padding-right: 731px;
+      text-align: left;
     }
-  }
-  #terms{
-    p{
-      font-size: 20px;
-    }
-  }
-  @media (min-width: 1200px) and (max-width: 1400px) 
-  {
-    #first {
-      h1 {
-        position: absolute;
-        bottom: 400px;
-        left: 150px;
-        background-blend-mode: 70%;
-        background-color: #000;
-        color:#fff;
-        padding-left: 20px;
-        padding-right: 32px;
-        font-size: 54px;
-      }
-      h3 {
-        position: absolute;
-        bottom: 267px;
-        left: 548px;
-        background-color: #000;
-        background-blend-mode: 70%;
-        color: #fff;
-        padding-left: 19px;
-        padding-right: 30px;
-        font-size: 54px;
-      }
-      p {
-        position: absolute;
-        width:120%;
-        bottom: 98px;
-        left: 70px;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        padding-left: 80px;
-        padding-right: 731px;
-        text-align: left;
-      }
-      .btn-custom {
-        color: $ternarycolor-color;
-        background-color: $primary-color;
-        position: absolute;
-        bottom: -14px;
-        padding: 10px 43px;
-        margin-left: -550px !important;
-      }
-    }
-    #first1 {
-      h1 {
-        position: absolute;
-        bottom: 438px;
-        left: 150px;
-        background-blend-mode: 70%;
-        background-color: #000;
-        color:#fff;
-        padding-left: 20px;
-        padding-right: 32px;
-        font-size: 54px;
-      }
-      p {
-        position: absolute;
-        width:120%;
-        bottom: 202px;
-        left: 70px;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        padding-left: 80px;
-        padding-right: 731px;
-        text-align: left;
-      }
-      .btn-custom {
-        color: $ternarycolor-color;
-        background-color: $primary-color;
-        position: absolute;
-        bottom: 80px;
-        padding: 10px 43px;
-        margin-left: -558px !important;
-      }
-    }
-    #first4 {
-      h1 {
-        position: absolute;
-        bottom: 417px;
-        left: 150px;
-        background-blend-mode: 70%;
-        background-color: #000;
-        color:#fff;
-        padding-left: 20px;
-        padding-right: 32px;
-        font-size: 54px;
-      }
-      p {
-        position: absolute;
-        width:120%;
-        bottom: 225px;
-        left: 70px;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        padding-left: 80px;
-        padding-right: 731px;
-        text-align: left;
-      }
-      .btn-custom {
-        color: $ternarycolor-color;
-        background-color: $primary-color;
-        position: absolute;
-        bottom: 87px;
-        padding: 10px 43px;
-        margin-left: -550px !important;
-      }
-    }
-    #first5 {
-      h1 {
-        position: absolute;
-        bottom: 412px;
-        left: 150px;
-        background-blend-mode: 70%;
-        background-color: #000;
-        color:#fff;
-        padding-left: 20px;
-        padding-right: 32px;
-        font-size: 54px;
-      }
-      p {
-        position: absolute;
-        width:120%;
-        bottom: 263px;
-        left: 70px;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        padding-left: 80px;
-        padding-right: 731px;
-        text-align: left;
-      }
-      .btn-custom {
-        color: $ternarycolor-color;
-        background-color: $primary-color;
-        position: absolute;
-        bottom: 100px;
-        padding: 10px 43px;
-        margin-left: -556px !important;
-      }
+    .btn-custom {
+      color: $ternarycolor-color;
+      background-color: $primary-color;
+      position: absolute;
+      bottom: 87px;
+      padding: 10px 43px;
+      margin-left: -550px !important;
     }
   }
-  #testimonial{
-    h3{
-      background-color:$primary-color;
-      color:#fff;
+  #first5 {
+    h1 {
+      position: absolute;
+      bottom: 412px;
+      left: 150px;
+      background-blend-mode: 70%;
+      background-color: #000;
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 32px;
+      font-size: 54px;
+    }
+    p {
+      position: absolute;
+      width: 120%;
+      bottom: 263px;
+      left: 70px;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      padding-left: 80px;
+      padding-right: 731px;
+      text-align: left;
+    }
+    .btn-custom {
+      color: $ternarycolor-color;
+      background-color: $primary-color;
+      position: absolute;
+      bottom: 100px;
+      padding: 10px 43px;
+      margin-left: -556px !important;
     }
   }
-  #testimonial-video, #testimonial-video1{
-    p{
-      font-size:20px;
-    }
-    .line{
-      width:24%;
-    border-top:2px solid $primary-color;
-    margin-bottom:1.7rem;
-    }
+}
+#testimonial {
+  h3 {
+    background-color: $primary-color;
+    color: #fff;
   }
-  #testimonial-content{
-    .line{
-      width:46%;
-      border-top:2px solid $primary-color;
-      margin-bottom:1.7rem;
-   }
-   p{
+}
+#testimonial-video,
+#testimonial-video1 {
+  p {
+    font-size: 20px;
+  }
+  .line {
+    width: 24%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+#testimonial-content {
+  .line {
+    width: 46%;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+  p {
     font-size: 22px;
-   }
   }
-  #testimonial-message{
-    .container{
+}
+#testimonial-text {
+  .line {
+    width: 15%;
+    margin: 0 auto;
+    border-top: 2px solid $primary-color;
+    margin-bottom: 1.7rem;
+  }
+}
+#testimonial-message {
+  .container {
     border-color: $primary-color;
     border-radius: 29px;
     border-style: solid;
-    }
-    p{
-      font-size:22px;
-    }
   }
+  .special-word,
+  .special-word1 {
+    color: $primary-color;
+    font-size: 38px;
+  }
+  p {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
