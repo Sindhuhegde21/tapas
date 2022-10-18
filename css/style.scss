@@ -1245,4 +1245,13 @@ $ternarycolor-color: #ffffff;
     p{
       font-size:22px;
     }
+    .fa-quote-left, .fa-quote-right {
+      color: $primary-color;
+    } 
   }
+#testimonial {
+  p {
+    text-align: justify;
+    font-size: 16px;
+  }
+}
