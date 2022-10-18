@@ -1276,27 +1276,17 @@ ul {
   .container {
     border-color: $primary-color;
     border-radius: 29px;
-    border-style: solid;
-<<<<<<< HEAD
-  }
-  .special-word,
-  .special-word1 {
-    color: $primary-color;
-    font-size: 38px;
-  }
-  p {
-    font-size: 22px;
-  }
-  h4 {
-    font-size: 30px;
-    text-transform: uppercase;
-  }
-}
-=======
+    border-style: double;
+    }
+    h5{
+      font-size:22px;
+      text-transform:uppercase;
+      line-height: 48px !important;
     }
     p{
-      font-size:22px;
+      font-size:23px;
     }
+
     .fa-quote-left, .fa-quote-right {
       color: $primary-color;
     } 
@@ -1307,4 +1297,3 @@ ul {
     font-size: 16px;
   }
 }
->>>>>>> 0cbc07828d125aa6279a6eb8ac0477735b0d1f80
