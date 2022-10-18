@@ -1277,6 +1277,7 @@ ul {
     border-color: $primary-color;
     border-radius: 29px;
     border-style: solid;
+<<<<<<< HEAD
   }
   .special-word,
   .special-word1 {
@@ -1291,3 +1292,19 @@ ul {
     text-transform: uppercase;
   }
 }
+=======
+    }
+    p{
+      font-size:22px;
+    }
+    .fa-quote-left, .fa-quote-right {
+      color: $primary-color;
+    } 
+  }
+#testimonial {
+  p {
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+>>>>>>> 0cbc07828d125aa6279a6eb8ac0477735b0d1f80
