@@ -778,7 +778,6 @@ $ternarycolor-color: #ffffff;
 #contact-details {
   p {
     font-size: 21px;
-    text-align: justify;
   }
   // .img-fluid{
   // }
@@ -1054,6 +1053,10 @@ ul {
     border-radius: 15px;
     width: 18%;
   }
+  .custom-img {
+    height: 550px !important;
+    width: 100%;
+  }
 }
 #testimonials {
   h2 {
@@ -1084,7 +1087,7 @@ ul {
 
   #images1 {
     .custom-img {
-      height: 800px !important;
+      height: 650px !important;
     }
     .btn-custom {
       width: 70%;
